@@ -1,0 +1,38 @@
+<html xmlns="html">
+<head>
+  <title>WordCloud</title>
+  <link rel="stylesheet" href="../static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="../static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="../static/lib/css/dc.css">
+  <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+
+<body>
+  <div class="container">
+    <h3>Word Cloud</h3>
+    <div class="word-cloud"></div>
+  </div>
+
+  <div class="col-lg-6">
+   <div class="input-group" id="search">
+     <input type="text" class="form-control" placeholder="Find your business...">
+     <span class="input-group-btn">
+       <button class="btn btn-default" type="button">Go!</button>
+     </span>
+   </div><!-- /input-group -->
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+  <script src="../js/widgetmanager.js"></script>
+  <script src="../ajaxsolr/core/Core.js"></script>
+  <script src="../ajaxsolr/core/AbstractManager.js"></script>
+  <script src="../ajaxsolr/managers/Manager.jquery.js"></script>
+  <script src="../ajaxsolr/core/Parameter.js"></script>
+  <script src="../ajaxsolr/core/ParameterStore.js"></script>
+  <script src="../ajaxsolr/core/AbstractWidget.js"></script>
+
+  <script src="../ajaxsolr/core/AbstractFacetWidget.js"></script>
+  <script src="../ajaxsolr/core/AbstractTextWidget.js"></script>
+  <script src="../widgets/AutocompleteWidget.js"></script>
+
+</body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AJAX Solr</title>
+  <link rel="stylesheet" href="../static/lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.css">
+  <script src="../js/widgetmanager.js"></script>
+  <script src="../ajaxsolr/core/Core.js"></script>
+  <script src="../ajaxsolr/core/AbstractManager.js"></script>
+  <script src="../ajaxsolr/managers/Manager.jquery.js"></script>
+  <script src="../ajaxsolr/core/Parameter.js"></script>
+  <script src="../ajaxsolr/core/ParameterStore.js"></script>
+  <script src="../ajaxsolr/core/AbstractWidget.js"></script>
+
+  <script src="../ajaxsolr/core/AbstractFacetWidget.js"></script>
+  <script src="../ajaxsolr/core/AbstractTextWidget.js"></script>
+  <script src="../widgets/AutocompleteWidget.js"></script>
+</head>
+<body>
+      <div class="col-lg-6 center">
+       <div class="input-group">
+
+         <ul id="search">
+           <input type="text" class="form-control" id="query" name="query" placeholder="Find Your Business...">
+           <span class="input-group-btn">
+             <button class="btn btn-default" type="button">Go!</button>
+           </span>
+         </ul>
+         <input type="submit" class="btn btn-info btn-block" value="Start a New Business"/>
+       </div><!-- /input-group -->
+
+  </div>
+</body>
+</html>
